@@ -1,0 +1,74 @@
+*{
+  margin: auto;
+  box-sizing: border-box;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+/* Sfondo */
+body{
+  background-image: url("img/background.jpg");
+  background-size: cover;
+  text-align: center;
+  padding-top: 30px;
+}
+
+/* Foglio trasparente */
+body > div{
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 25px;
+  width: 63%;
+  padding: 5%;
+}
+header h1{
+  color: #54e11a;
+  font-weight: 600;
+}
+nav{
+  width: 95%;
+  background-color: #54e11a;
+  padding: 0.7%;
+}
+button{
+  height: 27px;
+}
+main{
+  color: white;
+  padding: 3%;
+  text-align: left;
+  font-size: 16px;
+  line-height: 140%;
+}
+main h1{
+  display: inline-block;
+  padding: 0.8%;
+}
+span:before{
+  content: "\2192 ";
+}
+span:after{
+  content: " - "
+}
+
+/* Proprietà comuni delle classi */
+.low, .med, .full{
+  border-radius: 5px;
+  margin-left: 0;
+  display: block;
+  margin-bottom: 2.2%;
+  content:'';
+}
+.low{
+  background-color: #fc6262;
+  border: 15px solid #fc6262;
+  width: 25%;
+}
+.med{
+  background-color: #e99c3f;
+  border: 15px solid #e99c3f;
+  width: 45%;
+}
+.full{
+  background-color: #8be876;
+  border: 15px solid #8be876;
+  width: 75%;
+}
